@@ -3,7 +3,7 @@
 	<metadata>
 		<id>Nuget.Test.FW</id>
 		<version>1.0.0</version>
-		<title>Nuget test package for .Net Framewor</title>
+		<title>Nuget test package for .Net Framework</title>
 		<authors>Worksafe BC</authors>
 		<requireLicenseAcceptance>false</requireLicenseAcceptance>
 		<license type="expression">MIT</license>
