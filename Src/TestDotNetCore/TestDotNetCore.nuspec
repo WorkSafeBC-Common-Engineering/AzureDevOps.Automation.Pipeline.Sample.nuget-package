@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package >
+	<metadata>
+		<id>Nuget.Test.Core</id>
+		<version>1.0.0</version>
+		<title>Nuget test package for .Net Core</title>
+		<authors>Worksafe BC</authors>
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<license type="expression">MIT</license>
+		<description>Test nuget package with V2 templates</description>
+		<releaseNotes>New</releaseNotes>
+		<copyright>Copyright © Worksafe BC 2022</copyright>
+		<tags>Test YAML V2 Templates</tags>
+		<dependencies>
+			<group targetFramework="net6.0" />
+		</dependencies>
+	</metadata>
+	<files>
+		<file src="bin\Release\net6.0\TestDotNetCore.dll" target="lib\net6.0" />
+	</files>
+</package>
