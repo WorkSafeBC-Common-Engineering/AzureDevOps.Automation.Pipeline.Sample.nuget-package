@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package >
+	<metadata>
+		<id>Nuget.Test.FW</id>
+		<version>1.0.0</version>
+		<title>Nuget test package for .Net Framework</title>
+		<authors>Worksafe BC</authors>
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<license type="expression">MIT</license>
+		<description>Test nuget package with V2 templates</description>
+		<releaseNotes>New</releaseNotes>
+		<copyright>Copyright © Worksafe BC 2022</copyright>
+		<tags>Test YAML V2 Templates</tags>
+		<dependencies>
+			<group targetFramework="net48" />
+		</dependencies>
+	</metadata>
+	<files>
+		<file src="bin\Release\TestDotNetFramework.dll" target="lib\net48" />
+	</files>
+</package>
